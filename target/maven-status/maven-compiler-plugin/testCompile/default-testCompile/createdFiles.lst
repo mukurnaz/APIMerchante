@@ -1,0 +1,7 @@
+stepdefinitions/putRequestStepDefinition.class
+runners/BookerRunner.class
+pojo/JsonPlaceHolderPost.class
+stepdefinitions/deleteRequestStepDefinitions.class
+pojo/GoRestComment.class
+stepdefinitions/postRequestStepDefinition.class
+stepdefinitions/getRequestStepDefinitions.class

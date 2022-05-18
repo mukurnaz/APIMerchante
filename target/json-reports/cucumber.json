@@ -1,0 +1,469 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "send a post request and verify the response",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082358000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "send post request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.sendPostRequestUsingTheApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1164000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify statusCode \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174976000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify id number \"101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"101\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyIdNumber(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-18T13:35:45.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 577000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "send a get request and verify the response",
+        "description": "",
+        "id": "request-for-json-place-holder;send-a-get-request-and-verify-the-response;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 216000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131284000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send get request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.getRequestStepDefinitions.send_get_request_using_the_api(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5043000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify firstName \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.getRequestStepDefinitions.verify_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4520000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify lastName \"qui est esse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qui est esse\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.getRequestStepDefinitions.verify_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "send a post request and verify the response",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 817595000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "send post request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.sendPostRequestUsingTheApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 354000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify statusCode \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11693000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify id number \"101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"101\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyIdNumber(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-18T13:35:47.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "send a put request and verify the response",
+        "description": "",
+        "id": "request-for-json-place-holder;send-a-put-request-and-verify-the-response",
+        "after": [
+          {
+            "result": {
+              "duration": 461000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475875000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "send put request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.putRequestStepDefinition.sendPutRequestUsingTheApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30187000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify statusCode for put \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.putRequestStepDefinition.verifyStatusCodeFor(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6515000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify id number \"101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"101\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyIdNumber(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "send a post request and verify the response",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 364591000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "send post request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.sendPostRequestUsingTheApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify statusCode \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6886000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify id number \"101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"101\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.postRequestStepDefinition.verifyIdNumber(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-18T13:35:49.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "send a delete request and verify the response",
+        "description": "",
+        "id": "request-for-json-place-holder;send-a-delete-request-and-verify-the-response",
+        "after": [
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249800000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "send delete request using the api \"base_URI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URI\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.deleteRequestStepDefinitions.sendDeleteRequestUsingTheApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 775000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify statusCode for delete \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.deleteRequestStepDefinitions.verifyStatusCodeForDelete(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Request for Json Place Holder",
+    "description": "",
+    "id": "request-for-json-place-holder",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/RequestForJsonPlaceHolder.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
