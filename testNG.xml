@@ -3,7 +3,7 @@
 <suite name="Suite">
     <test name="API">
         <classes>
-            <class name="runners.BookerRunner"></class>
+            <class name="runners.Runner"></class>
         </classes>
     </test>
 </suite>

@@ -3,7 +3,6 @@ package runners;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.testng.annotations.Test;
 
 
 @RunWith(Cucumber.class)
@@ -18,5 +17,5 @@ import org.testng.annotations.Test;
 //                "junit:target/xml-report/cucumber.xml",
         }
 )
-public class BookerRunner {
+public class Runner {
 }
